@@ -1,13 +1,9 @@
 <!DOCTYPE html>
+<html>
   <body>
-    <script>
-      window.RufflePlayer = window.RufflePlayer || {};
-      window.addEventListener("load", (event) => {
-          const ruffle = window.RufflePlayer.newest();
-          const player = ruffle.createPlayer();
-          const container = document.getElementById("container");
-          container.appendChild(player);
-          player.ruffle().load("movie.swf");
-      });
-  </script>
-  <script src=""></script>
+      <object>
+        <embed src="https://assets.onecompiler.app/43g6upem8/43hbkgx8c/riddleschool.swf" width="550" height="400" />
+    </object>
+    <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+  </body>
+</html>
